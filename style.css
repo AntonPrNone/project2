@@ -1,0 +1,465 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Media/Fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "IBM";
+    src: url("Media/Fonts/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "CodePro";
+    src: url("Media/Fonts/SourceCodePro-Light.ttf");
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #000000;
+    font-family: 'Comfortaa', sans-serif;
+    background-image: url(media/img/bg.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+    
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1{
+    font-family: 'IBM', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: coral;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul{
+    list-style-image: url('Media/img/marker.png');
+}
+
+header, section{
+    height: 700px;
+}
+
+#section1{
+    height: 300px;
+}
+
+#section2{
+    height: 1200px;
+}
+
+#section3{
+    height: 2000px;
+}
+
+#section4{
+    height: 900px;
+}
+
+#section5{
+    height: 1200px;
+}
+
+#section6{
+    height: 2500px;
+}
+
+#section7{
+    height: 300px;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 10px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #00000000;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #5f0085;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #7a7a7a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0035a7;
+}
+
+/* Кнопка1 */
+a.button9 {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+     linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+     linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+  }
+  a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  }
+  a.button9:active {
+    top: 1px;
+  }
+
+/* Кнопка 2 */
+
+@import url(https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+  a.button{
+      background: #ececec00;
+      border-radius: 15px;
+      padding: 10px 20px;
+      display: block;
+      font-family: arial;
+      font-weight: bold;
+      color:#c0c0c0;
+      text-decoration: none;
+      text-shadow:0px 1px 0px rgba(0, 0, 0, 0.63);
+      border:1px solid #0000004f;
+      width: 145px;
+      margin:0px auto;
+      margin-top:100px;
+      box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+      -webkit-transition:box-shadow 0.5s;
+  }
+  a.button i{
+      float: right;
+      margin-top: 2px;
+  }
+  a.button:hover{
+      box-shadow: 0px 2px 1px white inset, 0px -2px 20px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+  }
+  a.button:active{
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) inset, 0px -2px 20px white, 0px 1px 5px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.1);
+      background:-webkit-linear-gradient(top, #d1d1d1 0%,#ECECEC 100%);
+  }
+
+/* Nav */
+
+nav #flexblocks2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav #logo{
+    background-color: #00000085;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #5f00ad69;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    position: fixed;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    position: fixed;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.623);
+    z-index: 1;
+    margin-top: 50px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: beige;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.466);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #aa3030;}
+
+nav #numberphone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'CodePro', sans-serif;
+    margin: 15px;
+}
+
+
+
+nav .dropdown{
+    margin: 10px;
+}
+
+nav h1{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background: #2E2F45;
+    display: table;
+    margin-top: 20px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;
+}
+
+nav h2{
+    margin-top: 20px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 2em;
+    background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 46%, #8d0192);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+
+
+    /* Section1*/
+
+#section1 h1, #section7 h1{
+    padding: 20px;
+    letter-spacing: 0.2em;
+    border: 5px solid;
+    border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+    border-image-slice: 1;
+    color: coral;
+}
+
+    /* Section2*/
+
+#section2 #noul{
+    text-indent: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 2em;
+    background-color: #00000070;
+    padding: 10px;
+}
+
+#section2 #ul{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 2em;
+    background-color: #00000070;
+    padding: 10px;
+}
+
+
+#section2 img{
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+    /* Section3 */
+
+#section3 div{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    width: 500px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    color:#ff7300;
+    background-color: #0000002c;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+}
+
+#section3 div:hover{
+   box-shadow: 0 0 10px #000000;
+}
+
+#section3 div span{
+    margin-top: 10px;
+    color: aqua;
+}
+
+#section3 div img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+    /* Section4 */
+
+#section4 .panel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section4 img{
+    border-radius: 100%;
+}
+
+#section4 .fio{
+    font-size: 1.8em;
+    color: red;
+    background-color: #0000008f;
+}
+
+#section4 figure{
+    text-align: center;
+    line-height: 2em;
+}
+
+    /* Section5 */
+
+#section5 h1{
+    margin-bottom: 50px;
+}
+
+#section5 li{
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#section5 div{
+    background-color: #000000a8;
+    padding: 10px 10px 10px 30px;
+    box-shadow: 0 0 20px black;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 1.5em;
+}
+
+#section5 p{
+    text-indent: 2em;
+}
+
+    /* Section6 */
+
+#section6 div{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    color:#0046dd;
+    background-color: #00000096;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#section6 div:hover{
+   box-shadow: 0 0 10px #000000;
+}
+
+#section6 div span{
+    margin-top: 10px;
+    color: aqua;
+}
+
+#section6 div img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#section6 span{
+    margin-bottom: 20px;
+    font-family: 'CodePro', sans-serif;
+}
+
+#section6 #otz{
+    color: #ff7300;
+    text-align: center;
+}
+
+    /* Section7 */
+
+
+#toTop {
+    width:100px;
+    background:#000000a6;
+    border-radius: 10px;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:rgb(35, 0, 233);
+    font-size:18px;
+}
